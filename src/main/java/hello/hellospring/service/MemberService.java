@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 // create test :  alt + enter
-@Service
+
 // @Component
 public class MemberService {
 
