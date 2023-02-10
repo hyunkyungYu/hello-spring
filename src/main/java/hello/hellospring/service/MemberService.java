@@ -12,7 +12,7 @@ import java.util.Optional;
 
 // create test :  alt + enter
 
- @Service
+// @Service
 public class MemberService {
 
     private final MemberRepository memberRepository;
