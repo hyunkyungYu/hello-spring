@@ -28,7 +28,7 @@ class MemberServiceIntegrationTest {
     void 회원가입() {
         // given
         Member member = new Member();
-        member.setName("spring1");
+        member.setName("spring");
         // 이전 동작 재실행 : shift + f10
 
         // when
@@ -43,11 +43,11 @@ class MemberServiceIntegrationTest {
     public void 중복_회원_예외() {
         // given
         Member member1 = new Member();
-        member1.setName("spring1");
+        member1.setName("spring");
 
         // 자동 변경 : shift + f6
         Member member2 = new Member();
-        member2.setName("spring1");
+        member2.setName("spring");
 
         // when
         memberService.join(member1);
