@@ -30,7 +30,7 @@ class MemberServiceIntegrationTest {
     void 회원가입() {
         // given
         Member member = new Member();
-        member.setName("spring");
+        member.setName("spring1");
         // 이전 동작 재실행 : shift + f10
 
         // when
