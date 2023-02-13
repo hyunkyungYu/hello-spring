@@ -45,11 +45,11 @@ class MemberServiceIntegrationTest {
     public void 중복_회원_예외() {
         // given
         Member member1 = new Member();
-        member1.setName("spring");
+        member1.setName("spring2");
 
         // 자동 변경 : shift + f6
         Member member2 = new Member();
-        member2.setName("spring");
+        member2.setName("spring2");
 
         // when
         memberService.join(member1);
